@@ -47,7 +47,7 @@ export async function getStaticProps(Context) {
 
 
 
-    let data = await fetch('https://rupali.vercel.app/api/getMetadata', {
+    let data = await fetch('https://online72media.vercel.app/api/getMetadata', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
